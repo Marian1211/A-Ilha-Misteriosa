@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="">
+            <p>Você encontra, em um mercado de antiguidades, um baú contendo um mapa desgastado que leva à Ilha de Zaltana, um local envolto em lendas sobre um artefato de poder inestimável. Decidido a desvendar o mistério, você arruma suas coisas e embarca nesta jornada</p>
+            <button class="btn-proximo" data-proximo="1">Começar a jornada para a ilha misteriosa.</button>
+            <button class="btn-proximo" data-proximo="2">Seguir por essa nova rota</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Após dias navegando, você avista a Ilha de Zaltana cercada por nevoeiros densos. O barco mal consegue ancorar na praia rochosa, mas você desembarca, determinado a explorar a ilha. Ao seu redor, há uma floresta densa e uma trilha que leva ao interior da ilha.</p>
+            <button class="btn-proximo" data-proximo="3">Explorar a floresta em busca de pistas.</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você recebe um diário de um explorador desaparecido que menciona outro caminho para a Ilha de Zaltana. Seguindo as anotações, descobre uma rota mais segura, passando por uma aldeia em uma ilha vizinha, onde ouve histórias sobre a ilha misteriosa.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir pela rota mais segura</button>
+            <button class="btn-proximo" data-proximo="6">Seguir as pistas para outro destino</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Dentro da floresta, você encontra uma clareira onde há um altar antigo coberto por runas misteriosas. Tocando o altar, você ativa um mecanismo que revela dois símbolos brilhantes: um apontando para uma torre ao norte e outro indicando ruínas no sul.</p>
+            <button class="btn-proximo" data-proximo="7">Avançar</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.jpg" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você hesita, percebendo os perigos e a falta de suprimentos. Sentindo-se sobrecarregado, decide voltar ao barco e retornar para casa. Ao partir, olha para trás e se pergunta o que poderia ter encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você decide seguir para o norte, enfrentando trilhas íngremes e terreno rochoso. Eventualmente, chega a uma torre coberta de musgo. Dentro dela, encontra um pergaminho que fala sobre um tesouro guardado pelo Guardião das Sombras. Uma pista indica que o próximo destino é um vale ao leste.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Amazonas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Nas Ruínas do Oeste, você entra em uma sala cheia de armadilhas. Apesar de evitar algumas, não encontra nenhuma pista significativa e percebe que está em um beco sem saída. Decide voltar ao ponto inicial.</p>
+            <button class="btn-proximo" data-proximo="8">Retornar ao ponto anterior e tentar outra abordagem.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Os símbolos brilham intensamente, como se estivessem vivos. Um murmúrio ecoa na clareira, parecendo sussurrar:
+
+                “A torre ao norte guarda a sabedoria oculta.”
+                “As ruínas ao sul escondem segredos esquecidos.”
+                Você sente o peso da escolha. A torre parece mais perigosa devido ao terreno íngreme, mas pode oferecer informações essenciais. As ruínas, por outro lado, são envoltas em mistério, com relatos de armadilhas, mas também de tesouros inigualáveis</p>
+            <button class="btn-proximo" data-proximo="9">Seguir para a torre ao norte.</button>
+            <button class="btn-proximo" data-proximo="10">Seguir para as ruínas ao sul.</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você retorna à linha principal da aventura ao seguir a bússola novamente. Ela agora aponta para o Coração da Ilha, um lugar que nenhum mapa registra. O ancião disse que apenas quem segue a bússola com fé encontrará o caminho.</p>
+            <button class="btn-proximo" data-proximo="7">Avançar para o coração da ilha.</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você decide seguir para o norte, Você entra em uma floresta, mas ela parece um labirinto. Mas os sussurros das árvores ajudam você a seguir no caminho. Você descobre o templo subterrâneo</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o Templo Subterrâneo</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>As rúinas do sul à direita termina em uma área com muitas árvores. Apesar de uma bela vista, não há motivos para prosseguir por aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-ilha-misteriosa.jpg" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Você encontra o lendário Coração de Zaltana, um artefato com brilho dourado. Ele pulsa como se estivesse vivo, e você decide levar o artefato consigo</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você retorna para o norte, enfrentando trilhas íngremes e terreno rochoso. Eventualmente, chega a uma torre coberta de musgo. Dentro dela, encontra um pergaminho que fala sobre um tesouro guardado pelo Guardião das Sombras. Uma pista indica que o próximo destino é um labirinto, que você consegue sair facilmente.</p>
+            <button class="btn-proximo" data-proximo="11">Avançar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
